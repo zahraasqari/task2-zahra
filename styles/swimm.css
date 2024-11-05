@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: azure;
+    width: 100vw;
+    height: 200vh;
+    overflow-x: hidden;
+}
+table{
+    width: 800px;
+    height: 900px;
+}
+.backImage{
+    background-image: url("/src/images/swimm.jpg");
+    width: 400px;
+    height: 1000px;
+    background-repeat:no-repeat;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
